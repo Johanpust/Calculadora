@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>calculadora</title>
+   
+</head>
+<body>
+    <div class="calculadora">
+        <div class="pantalla">
+            <div id="resultado" class="resultado"></div>
+        </div>
+        <div class="teclas">
+            <div class="numeros">
+                <div class="fila1">
+                    <button id="n1">7</button>
+                    <button id="n2">8</button>
+                    <button id="n3">9</button>
+                </div>
+                <div class="fila2">
+                    <button id="n4">4</button>
+                    <button id="n5">5</button>
+                    <button id="n6">6</button>
+                </div>
+                <div class="fila3">
+                    <button id="n7">1</button>
+                    <button id="n8">2</button>
+                    <button id="n9">3</button>
+                </div>
+            </div>
+                <div class="opciones">
+                    <button id="prueba" onclick="eliminar()">CE</button>
+                    <button id="n0">0</button>
+                    <button id="br">=</button>
+                </div>
+           
+            <div class="operaciones">
+                <button id="suma">+</button>
+                <button id="resta">-</button>
+                <button id="multi">*</button>
+                <button id="divi">/</button>
+            </div>
+        </div>
+        <div class="imp">
+           <button id="imp" onclick="cambiarboton()">IMPRIMIR CODIGO</button>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

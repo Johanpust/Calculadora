@@ -1,0 +1,133 @@
+* {
+    padding: 0%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculadora {
+    background-color:transparent;
+    width: fit-content;
+    margin: auto;
+    margin-top: 35px;
+    width: 307px;
+    height: 480px;
+}
+
+.imp {
+    padding: 0px 18px 18px 18px;
+}
+
+.imp button {
+    width: 307px;
+    height: 100px;
+    top: 65%;
+    position: absolute;
+    left: 38%;
+    background-color: #f6b55d;
+    color: #fff;
+    border: none;
+    font-size: 30px;
+    padding: 0px;
+    margin-left: 11px;
+}
+
+.resultado {
+    background-color: #818181;
+    color: #eee;
+    padding: 6px;
+    font-family: monospace;
+    font-size: 20px;
+    width: 295px;
+    height: 90px;
+    top: 4%;
+    position: absolute;
+    left: 38%;
+    margin-left: 11px;
+}
+
+.teclas {
+    display: flex;
+}
+
+.pantalla {
+    padding: 18px 18px 0px 18px;
+}
+
+.fila1 {
+    background-color: rgba(255, 0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 20%;
+    left: 39%;
+}
+
+.fila2 {
+    background-color: rgba(255, 0, 0, 0);
+    margin-top: 5px;
+    padding: 0px;
+    position: absolute;
+    top: 31%;
+    left: 39%;
+}
+
+.fila3 {
+    background-color: rgba(255, 0, 0, 0);
+    margin-top: 2px;
+    padding: 0px;
+    position: absolute;
+    top: 43%;
+    left: 39%;
+}
+
+.opciones {
+    position: absolute;
+    top: 55%;
+    padding-right: 40px;
+}
+
+.numeros button {
+    background-color: #0091ff;
+    width: 72px;
+    height: 70px;
+    border: none;
+    color: white;
+}
+
+.opciones button {
+    background-color:#00c0ff;
+    width: 72px;
+    height: 70px;
+    border: none;
+    color: white;
+}
+
+.operaciones button {
+    display: block;
+    width: 72px;
+    height: 70px;
+    background-color: rgb(27, 144, 199);
+    color: #fff;
+    border: none;
+    margin-top: 4px;
+}
+
+.operaciones {
+    position: absolute;
+    top: 20%;
+    left: 56%;
+}
+
+.numeros div {
+    text-align: center;
+}
+
+.numeros button:hover {
+    box-shadow: 0px 0px 12px #aaa;
+}
+
+button {
+    margin: 2px 0px;
+    padding: 15px 24px;
+    font-size: 19px;
+}
